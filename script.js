@@ -27,19 +27,3 @@ function getRandomColor() {
 
     return `rgb(${red}, ${green}, ${blue})`;
 }
-
-		target.style.backgroundColor=randomColor;
-
-		setTimeOut(()=>{
-			target.style.backgroundColor="#1d1d1d";
-		},1000);
-	}
-});
-
-function getRandomColor() {
-    let red = Math.floor(Math.random() * 256);
-    let green = Math.floor(Math.random() * 256);
-    let blue = Math.floor(Math.random() * 256);
-
-    return `rgb(${red}, ${green}, ${blue})`;
-}
